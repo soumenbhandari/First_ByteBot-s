@@ -86,7 +86,14 @@ void printArray(const vector<int> &arr)
 // Main function
 int main()
 {
-    vector<int> arr = {12, 11, 13, 5, 6, 7};
+    int number ; 
+    cout<<"amount of number :";
+    cin>>number ;
+    vector<int>arr(number,0);
+    cout<<"enter the numbers:";
+    for (int i=0;i<number ;i++){
+        cin>>arr[i];
+    }
 
     cout << "Given array is: ";
     printArray(arr);
