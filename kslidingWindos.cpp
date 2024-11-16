@@ -52,7 +52,7 @@ int main()
 {
    vector<int> arr = {3, -6, 2, -7, -8, 11};
    sliding a;
-   int k = 3;  
+   int k = 2;  
    a.windows(arr, k);
    return 0;
 }
